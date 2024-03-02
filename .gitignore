@@ -1,0 +1,6 @@
+/db.sqlite3
+/.env
+/*/__pycache__/
+/*/migrations/__pycache__/
+/*/migrations/00*_*.py
+/fixtures/
