@@ -24,3 +24,8 @@
     # or
     $ docker compose up --build
     ```
+4. You have to run migrations for the first time
+    ```sh
+    $ docker exec -it fullstack_backend python manage.py makemigrations
+    $ docker exec -it fullstack_backend python manage.py migrate
+    ```
